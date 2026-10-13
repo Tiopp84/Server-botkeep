@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Env / secrets — không push key, cert, keylog
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+SSLKEYLOGFILE*
+*.pcap
+*.pcapng
+
+# Uvicorn / logs
+*.log
+uv.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
